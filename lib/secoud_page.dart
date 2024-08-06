@@ -3,6 +3,11 @@ import 'package:flutter/material.dart';
 class SecoudPage extends StatelessWidget {
   const SecoudPage({super.key});
 
+  void _incrementCounter() {
+    // ignore: avoid_print
+    print('Increment counter');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
